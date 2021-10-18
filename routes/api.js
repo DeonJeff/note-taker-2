@@ -11,3 +11,5 @@ router.post("/api/notes", (req, res) => {
         updateDb();
     return console.log("New note: " +newNote.title);
         });
+
+        module.exports = router;
